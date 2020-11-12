@@ -1,4 +1,4 @@
-SubjectID ActivityName TimeBodyAccelerometer.mean...X TimeBodyAccelerometer.mean...Y
+SubjectID ActivityName TimeBodyAccelerometer.mean...X TimeBodyAccelerometer.mean...
 1          1      WALKING                      0.2773308                    -0.01738382
 2          2      WALKING                      0.2764266                    -0.01859492
 3          3      WALKING                      0.2755675                    -0.01717678
@@ -389,3 +389,5 @@ SubjectID ActivityName TimeBodyAccelerometer.mean...X TimeBodyAccelerometer.mean
 13                                     -0.3385271                                   -0.34928561
 14                                     -0.5910369                                   -0.65567766
  [ reached 'max' / getOption("max.print") -- omitted 166 rows ]
+
+tidy_data <- read.csv("tidy_dataset.csv")
